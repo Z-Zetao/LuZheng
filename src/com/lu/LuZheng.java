@@ -6,6 +6,7 @@ public class LuZheng {
         System.out.println("zzt");
         int c = add(3,4);
         System.out.println(c);
+        System.out.println(Math.exp(1));
     }
 
     public static int add(int a, int b){
