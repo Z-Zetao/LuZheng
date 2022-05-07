@@ -56,6 +56,7 @@ public class LuZheng {
 //        System.out.println(date);
 
         int year = (new Date()).getYear();
+        System.out.println("nizhenhaokan ");
 
 
     }
