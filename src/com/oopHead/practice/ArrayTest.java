@@ -1,4 +1,4 @@
-package com.oop.practice;
+package com.oopHead.practice;
 
 import static java.lang.Math.random;
 
