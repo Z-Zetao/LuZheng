@@ -1,4 +1,4 @@
-package com.oopHead;
+package com.oopHead.Forth;
 
 public class PersonTest01 {
     public static void main(String[] args) {
