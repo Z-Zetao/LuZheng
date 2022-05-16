@@ -10,5 +10,7 @@ public class JiChengTest {
 
         Student student = new Student();
         student.eat();
+        System.out.println("**************");
+        student.show();
     }
 }

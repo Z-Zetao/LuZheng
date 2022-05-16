@@ -18,4 +18,14 @@ public class Student extends Person{
     public void study(){
         System.out.println("学生需要学习！");
     }
+
+    @Override
+    public void eat() {
+        System.out.println("学生要多吃有营养的食物！");
+    }
+
+    public void show() {
+        this.eat();
+        super.eat();
+    }
 }
