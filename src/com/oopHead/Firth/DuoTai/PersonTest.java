@@ -5,11 +5,11 @@ package com.oopHead.Firth.DuoTai;
  */
 public class PersonTest {
     public static void main(String[] args) {
-        Person person = new Person();
-        person.eat();
+        Person person1 = new Person();
+        Person person2 = new Person();
+        System.out.println(person1.equals(person2));
 
-        Man man = new Man();
-        man.eat();
+        //person1.eat();
 
         Woman woman = new Woman();
         woman.eat();
