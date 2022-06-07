@@ -21,11 +21,22 @@ public class BufferedTest {
             bufferedWriter = new BufferedWriter(
                     new FileWriter(
                             new File("D:\\IntelliJ IDEA\\LuZheng\\src\\cn\\HelloCopy.txt")));
-            //读写操作
-            char[] chars = new char[5];
-            int len;
-            while ((len = bufferedReader.read(chars)) != -1){
-                bufferedWriter.write(chars,0,len);
+//            //方式一：
+//            //读写操作
+//            char[] chars = new char[5];
+//            int len;
+//            while ((len = bufferedReader.read(chars)) != -1){
+//                bufferedWriter.write(chars,0,len);
+//            }
+            //方式二：
+            String data;
+            while ((data = bufferedReader.readLine()) != null){
+//                //方式二.一
+//                //这个不包含换行符
+//                bufferedWriter.write(data + "\n");
+                //方式二.二
+                bufferedWriter.write(data);
+                bufferedWriter.newLine();//提供换行操作
             }
         } catch (IOException e) {
             e.printStackTrace();
