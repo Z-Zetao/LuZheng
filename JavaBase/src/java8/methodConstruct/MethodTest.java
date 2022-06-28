@@ -1,6 +1,5 @@
 package java8.methodConstruct;
 
-import java8.lambda.LambdaTest;
 import org.junit.Test;
 
 import java.util.Comparator;
