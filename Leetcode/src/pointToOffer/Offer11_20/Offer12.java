@@ -1,4 +1,4 @@
-package pointToOffer;
+package pointToOffer.Offer11_20;
 
 import java.util.HashSet;
 

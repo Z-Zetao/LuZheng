@@ -1,6 +1,4 @@
-package pointToOffer;
-
-import java.util.ArrayList;
+package pointToOffer.Offer01_10;
 
 /**
  * @author 51465

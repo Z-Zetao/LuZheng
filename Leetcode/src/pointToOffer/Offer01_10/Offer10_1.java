@@ -1,4 +1,4 @@
-package pointToOffer;
+package pointToOffer.Offer01_10;
 
 /**
  * @author 51465
