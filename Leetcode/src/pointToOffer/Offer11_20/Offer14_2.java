@@ -13,8 +13,8 @@ public class Offer14_2 {
      * 这里的重点就是再每次乘上3的时候都有可能越界
      * 所以每次乘上3之后都要进行取模运算才不会超
      * 同时在最后得出答案*4和*2的时候也有可能越界，所以就要先用long进行存储并取模，然后再转int
-     * @param n
-     * @return
+     * @param n 进行分组的绳子长度
+     * @return 分完之后绳子长度的乘积最大值
      */
     public int cuttingRope(int n) {
         int ans = 0;
