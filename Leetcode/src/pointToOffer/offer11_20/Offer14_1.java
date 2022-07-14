@@ -1,4 +1,4 @@
-package pointToOffer.Offer11_20;
+package pointToOffer.offer11_20;
 
 /**
  * 给你一根长度为 n 的绳子，请把绳子剪成整数长度的 m 段（m、n都是整数，n>1并且m>1）,

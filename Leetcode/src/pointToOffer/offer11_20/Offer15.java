@@ -1,4 +1,4 @@
-package pointToOffer.Offer11_20;
+package pointToOffer.offer11_20;
 
 import java.util.Arrays;
 

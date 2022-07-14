@@ -1,4 +1,4 @@
-package pointToOffer.Offer01_10;
+package pointToOffer.offer01_10;
 
 /**
  * 在一个n * m的二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。

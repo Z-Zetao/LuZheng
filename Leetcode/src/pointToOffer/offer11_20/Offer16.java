@@ -1,6 +1,4 @@
-package pointToOffer.Offer11_20;
-
-import java.math.BigDecimal;
+package pointToOffer.offer11_20;
 
 /**
  * 实现 pow(x, n) ，即计算 x 的 n 次幂函数。不得使用库函数，同时不需要考虑大数问题。

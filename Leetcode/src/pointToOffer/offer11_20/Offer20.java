@@ -1,4 +1,4 @@
-package pointToOffer.Offer11_20;
+package pointToOffer.offer11_20;
 
 /**
  * 请实现一个函数用来判断字符串是否表示数值（包括整数和小数）。

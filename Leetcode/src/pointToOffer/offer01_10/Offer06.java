@@ -1,4 +1,4 @@
-package pointToOffer.Offer01_10;
+package pointToOffer.offer01_10;
 
 import java.util.Stack;
 
