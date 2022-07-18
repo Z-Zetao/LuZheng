@@ -7,13 +7,13 @@ import java.util.Stack;
  *
  * @author 51465
  */
-public class Offer23 {
+public class Offer24 {
 
     public static void main(String[] args) {
         ListNode listNode = new ListNode(1);
         listNode.next = new ListNode(2);
         listNode.next.next = new ListNode(3);
-        Offer23 offer23 = new Offer23();
+        Offer24 offer23 = new Offer24();
         ListNode listNode1 = offer23.reverseList(listNode);
         System.out.println(listNode1);
     }
